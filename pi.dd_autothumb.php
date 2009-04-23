@@ -21,11 +21,10 @@ $plugin_info = array(
 class Dd_autothumb {
 
     var $return_data;
-
     
- /** ----------------------------------------
-    /**  Pic Finder
-    /** ----------------------------------------*/
+/** ----------------------------------------
+/**  Pic Finder
+/** ----------------------------------------*/
 
     function Dd_autothumb($str = '' )
     {
@@ -59,6 +58,7 @@ class Dd_autothumb {
 			$picindex = 0;
 		if ( $picindex=="last")
 			$picindex = $match_count-1;
+			
 		// todo - add an 'all' option which returns all images thumbed	
 		// any remaining non numerics are illegal, so switch to 0
 		if ( ! is_numeric($picindex))
