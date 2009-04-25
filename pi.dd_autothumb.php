@@ -268,7 +268,7 @@ img_fromroot = {$img_fromroot}</pre>";
 			$out_height = $max_height;
 		}
 
-		// put all the output image and path togeather
+		// put all the output image and path together
 		$resized = $img_rootpath.'/'.$cachPath.''.$img_filename.'-'.$out_width.'x'.$out_height.'.'.$img_extension;
 
 		// check the sorce and the cache file 
